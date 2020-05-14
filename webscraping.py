@@ -30,8 +30,16 @@ while(True):
             if i.isdigit():
                 value = value + i
 
+
+
         #print(temp)
         #print(soup)
-        print(value)
+        #print(value)
         currentDT = datetime.datetime.now()
-        print(str(currentDT))
+        #print(str(currentDT))
+
+        toPrintToCSV = str(currentDT) + "," + value
+
+        print(toPrintToCSV)
+
+
