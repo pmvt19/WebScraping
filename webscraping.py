@@ -38,8 +38,12 @@ while(True):
         currentDT = datetime.datetime.now()
         #print(str(currentDT))
 
-        toPrintToCSV = str(currentDT) + "," + value
+        toPrintToCSV = str(currentDT) + "," + value + "\n"
         print("help")
         print(toPrintToCSV)
+
+        f = open("data.csv", "a")
+        f.write(toPrintToCSV)
+        f.close()
 
 
