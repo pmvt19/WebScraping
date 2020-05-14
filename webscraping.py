@@ -39,7 +39,7 @@ while(True):
         #print(str(currentDT))
 
         toPrintToCSV = str(currentDT) + "," + value
-
+        print("help")
         print(toPrintToCSV)
 
 
